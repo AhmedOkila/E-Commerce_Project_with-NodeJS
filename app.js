@@ -15,7 +15,7 @@ const flash = require('connect-flash');
 /*############################################################*/
 // Constants
 const MONGODB_URI =
-    'mongodb+srv://ahmedOkila:h42u1t48JINEYFjP@cluster0.8i4b5.mongodb.net/shop';
+    'Database URL';
 const app = express();
 const store = new MongoDBStore({
     uri: MONGODB_URI,
